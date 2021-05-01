@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: auto;
+	height: 95vh;
+}
+
+.container {
+	border: 1px solid green;
+	width: 80vw;
+	height: 80vh;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: grid;
+	grid-template-rows: 10% 80% 10%;
+	grid-template-columns: 100%;
+}
+
+.title {
+	margin: 0;
+}
